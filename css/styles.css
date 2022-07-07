@@ -741,3 +741,50 @@ h1, h2, h3, h4, p {
     fill: var(--title-text-color);
     transition: fill var(--anim-fast);
 }
+
+.footer-subscribe {
+    margin-left: 93px;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.footer-email-input {
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding-left: 16px;
+    background-color: inherit;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn {
+    width: 200px;
+    height: 50px;
+    background-color:var(--accent-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    border: none;
+}
