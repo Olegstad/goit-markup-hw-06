@@ -315,15 +315,11 @@ h1, h2, h3, h4, p {
 /* Modal window form */
 
 .modal-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    padding: 40px;
 }
 
 .title-modal-form {
-    margin: 40px auto 12px;
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -333,19 +329,7 @@ h1, h2, h3, h4, p {
 }
 
 .input-form {
-    width: 448px;
     margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form-field {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-field:not(:last-child) {
-    margin-bottom: 10px;
 }
 
 .modal-form-label {
@@ -361,9 +345,12 @@ h1, h2, h3, h4, p {
 
 .modal-form-field {
     position: relative;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .modal-form-input {
+    display: block;
     padding-left: 42px;
     width: 100%;
     height: 40px;
@@ -415,6 +402,7 @@ h1, h2, h3, h4, p {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-right: 8px;
     width: 16px;
     height: 15px;
     border: 2px solid var(--main-text-color);
@@ -436,7 +424,6 @@ h1, h2, h3, h4, p {
 }
 
 .checkbox-text {
-    margin: 7px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -451,11 +438,9 @@ h1, h2, h3, h4, p {
 }
 
 .modal-form-btn {
+    display: block;
+    margin: 0 auto;
     padding: 10px 55px;
-    margin-bottom: 40px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
